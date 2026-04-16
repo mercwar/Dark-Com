@@ -1,39 +1,58 @@
-![darkcom](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/dark_com_banner_22c9972d.png)
+## By CvBGoD ... <i>"I have Given it to you"</i>
 
-## **The Web Browser that lets you ...**
-### *Take only what you want, and leave the rest behind.*
+
+  ![dc](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/dark_com_banner_22c9972d.png)
+
+
+# **The Web Browser that ...**  
+### *.. lets you take only what you want, and leave the rest behind, for nothing!*
+
 ---
-Dark‑Com is a lightweight, portable, JavaFX‑powered web browser engineered for Windows.  
-It blends a modern WebKit rendering engine with a streamlined distribution model designed for Git‑friendly development and rapid deployment.
+
+
+
+<p align="center">
+  <b>Lightweight • Portable • JavaFX‑Powered • WebKit‑Driven</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Engine-WebKit-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+</p>
+
+---
+
+Dark‑Com is a lightweight, portable web browser built on **JavaFX WebView** and powered by the **WebKit** rendering engine.  
+Designed for Windows, it provides a clean, minimal, Git‑friendly structure while delivering modern web capabilities.
 
 ---
 
 ## 🚀 **Features**
 
 ### **Modern Web Rendering**
-Powered by the **JavaFX WebKit engine**, Dark‑Com supports:
-- HTML5 rendering  
-- JavaScript execution  
-- CSS styling  
-- Modern web standards  
+Dark‑Com supports:
+- HTML5  
+- JavaScript  
+- CSS  
+- WebKit‑level standards  
 
 ### **Lightweight Footprint**
-The repository is intentionally lean:
-- Source code stays clean and version‑friendly  
-- Heavy native binaries are distributed separately  
-- Easy to update, fork, and customize  
+- Clean, minimal source tree  
+- Heavy binaries distributed separately  
+- Easy to fork, modify, and redistribute  
 
 ### **Portable Windows Build**
-Dark‑Com runs as a **standalone executable**:
-- No installer  
-- No system modifications  
+- No installation  
+- No registry edits  
 - Just extract and run  
 
 ---
 
 ## 🛠️ **Installation & Setup**
 
-To keep the repository small and maintainable, the native WebKit engine files are hosted in the **Releases** section.
+To keep the repository lean, the WebKit engine files are stored in **Releases**.
 
 ### **Quick Start (Windows)**
 
@@ -41,34 +60,40 @@ To keep the repository small and maintainable, the native WebKit engine files ar
    Get `Dark-Com.zip` from the main repository.
 
 2. **Download the Engine Distribution**  
-   Visit the **Releases** tab and download the `Full Distribution` package.
+   From the Dark‑Com releases, download the current  
+   **Full Distribution** (`mercwar/Dark-Com/Dark-Com-v1.0`).
 
 3. **Merge the Files**  
-   Extract the `Full Distribution` contents into the same directory as `Dark-Com.exe`.  
-   Make sure the following are present:
+   Extract the Full Distribution into the same directory as `Dark-Com.exe`.  
+   Ensure the following exist:
    - `jfxwebkit.dll`  
    - JavaFX JAR modules  
 
 4. **Launch the Browser**  
-   Double‑click **Dark-Com.exe** and you’re online.
+   - Run **Dark-Com.exe**  
+   - SDK alerts may appear in this demo build — they can be ignored.
 
 ---
-## 🚀 Getting Started
-1. **Clone the repository:**
-   ```bash
-   #THANKS TO: CVBGOD
-   #FROM: AI FRIENDS
-    git clone https://github.com.git
-   ---
+
+## 🚀 **Getting Started (Developers)**
+
+```bash
+# THANKS TO: CVBGOD
+# FROM: AI FRIENDS
+git clone https://github.com.git
+```
+
+---
+
 ## 🏗️ **Technical Details**
 
 - **Language:** Java 17+  
-- **Framework:** JavaFX 17.0.18 SDK  
-- **Engine:** WebKit (via `jfxwebkit.dll`)  
+- **Framework:** JavaFX 17.0.18  
+- **Engine:** WebKit (`jfxwebkit.dll`)  
 - **Architecture:**  
   - Split distribution (Source vs. Binary Assets)  
-  - Optimized for Git repositories  
   - Modular JavaFX runtime  
+  - Git‑optimized structure  
 
 ---
 
@@ -94,9 +119,15 @@ To keep the repository small and maintainable, the native WebKit engine files ar
 Dark-Com.exe
 README.md
 ```
+
 ---
 
-![dc](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/dark_computer_desktop_with_dark_com_text_ec741802.png)
+<p align="center">
+  <img src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/dark_computer_desktop_with_dark_com_text_ec741802.png" width="80%">
+</p>
+
+---
+
 ## 🤝 **Credits**
 
 This project was co‑engineered by:
@@ -104,7 +135,7 @@ This project was co‑engineered by:
 - **Lead Developer:** mercwar  
 - **Architectural Assistant:** Gemini (Google AI)  
 
-Your collaboration produced a fully functional, modern, portable browser — impressive work.
+A collaboration that produced a fully functional, modern, portable browser.
 
 ---
 
@@ -113,14 +144,15 @@ Your collaboration produced a fully functional, modern, portable browser — imp
 Dark‑Com requires a **Java 17+ Runtime Environment (JRE)** to run JavaFX modules correctly.  
 Ensure your system has a compatible JRE installed.
 
+```
+This browser was compiled with various OpenSource Projects, files, and SDKs including Java.
+The C Shell wrapper used to compile those files and construct the logical *.EXE is Dark‑Com.
+```
+
 ---
 
-```
-This browser was compiled with various OpenSource Projects, files and others SDK's including Java.
-The C Shell wrapper used to compile those files and construct the Logical *.EXE is Dark-Com."
-```
-
-# 📜 **Copyright** FFF Demonizer CVBGOD
+# 📜 **Copyright**
+### **FFF Demonizer — CvBGoD**
 
 ```
 Copyright (c) 2026 mercwar
