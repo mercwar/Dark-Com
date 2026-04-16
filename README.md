@@ -38,7 +38,7 @@ To keep the repository small and maintainable, the native WebKit engine files ar
 ### **Quick Start (Windows)**
 
 1. **Download the Source Package**  
-   Get `Dark-Com_Git_Ready.zip` from the main repository.
+   Get `Dark-Com.zip` from the main repository.
 
 2. **Download the Engine Distribution**  
    Visit the **Releases** tab and download the `Full Distribution` package.
