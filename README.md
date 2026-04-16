@@ -94,9 +94,9 @@ To keep the repository small and maintainable, the native WebKit engine files ar
 Dark-Com.exe
 README.md
 ```
-
 ---
 
+![dc](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/dark_computer_desktop_with_dark_com_text_ec741802.png)
 ## 🤝 **Credits**
 
 This project was co‑engineered by:
