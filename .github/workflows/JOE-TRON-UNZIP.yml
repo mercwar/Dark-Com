@@ -30,7 +30,7 @@ jobs:
         run: |
           # Define variables
           ZIP_PATH="./Dark-Com.zip"
-          UNZIP_PATH="./Dark-Com-v1.0"
+          UNZIP_PATH="./"
           
           # Create the directory (-p prevents error if it already exists)
           mkdir -p "$UNZIP_PATH"
