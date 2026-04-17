@@ -29,7 +29,7 @@ Designed for Windows, it provides a clean, minimal, Git‑friendly structure whi
 # 🛠️ **Installation & System Integration**  
 ##### [CVBGOD] YOU NEED [UCRT64](https://www.msys2.org)
 ##### [CVBGOD] JUST RUN THIS BASH SCRIPT IN YOUR UCRT64 AND YOU SHOULD SEE THE DARK COM WINDOW.
-##### [CVBGOD] ONCE THE WINDOW HAS LOADED FULLY CLICK INTO THE ADDRESS BAR WHERE IT SAYS 'GOOGLE.COM' AND THEN PRESS ENTER !
+##### [CVBGOD] ONCE THE WINDOW HAS LOADED FULLY, CLICK INTO THE ADDRESS BAR, IT RESPONDS TO PRESSING ENTER !
 ##### [CVBGOD] I HAVE GIVEN IT TO YOU!
 ---
 ```bash#!/bin/sh
