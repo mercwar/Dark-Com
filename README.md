@@ -48,77 +48,15 @@ Dark‑Com supports:
 - No registry edits  
 - Just extract and run  
 
----
 
-## 🛠️ **Installation & Setup**
+## 🏗️ Technical Environment
 
-To keep the repository lean, the WebKit engine files are stored in **Releases**.
+* Source Repo: Contains the Java logic, UI controllers, and the C-Shell wrapper.
+* Dist Repo: Contains the heavy lifting: jfxwebkit.dll, javafx.web.jar, and supporting native modules.
+* Runtime: Requires Java 17+ to be present on the system path.
 
-### **Quick Start (Windows)**
 
-1. **Download the Source Package**  
-   Get `Dark-Com.zip` from the main repository.
 
-2. **Download the Engine Distribution**  
-   From the Dark‑Com releases, download the current  
-   **Full Distribution** (`mercwar/Dark-Com/Dark-Com-v1.0`).
-
-3. **Merge the Files**  
-   Extract the Full Distribution into the same directory as `Dark-Com.exe`.  
-   Ensure the following exist:
-   - `jfxwebkit.dll`  
-   - JavaFX JAR modules  
-
-4. **Launch the Browser**  
-   - Run **Dark-Com.exe**  
-   - SDK alerts may appear in this demo build — they can be ignored.
-
----
-
-## 🚀 **Getting Started (Developers)**
-
-```bash
-# THANKS TO: CVBGOD
-# FROM: AI FRIENDS
-git clone https://github.com.git
-```
-
----
-
-## 🏗️ **Technical Details**
-
-- **Language:** Java 17+  
-- **Framework:** JavaFX 17.0.18  
-- **Engine:** WebKit (`jfxwebkit.dll`)  
-- **Architecture:**  
-  - Split distribution (Source vs. Binary Assets)  
-  - Modular JavaFX runtime  
-  - Git‑optimized structure  
-
----
-
-## 📁 **Repository Structure**
-
-```
-/src
-    Main Java source files
-    Browser window + controller
-    WebView integration
-
-/assets
-    Icons, UI resources
-
-/docs
-    Documentation, notes, diagrams
-
-/dist (user-provided)
-    jfxwebkit.dll
-    JavaFX JAR modules
-    Native engine files
-
-Dark-Com.exe
-README.md
-```
 
 ---
 
