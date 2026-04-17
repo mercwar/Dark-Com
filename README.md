@@ -9,8 +9,6 @@
 
 ---
 
-
-
 <p align="center">
   <b>Lightweight • Portable • JavaFX‑Powered • WebKit‑Driven</b>
 </p>
@@ -29,6 +27,105 @@ Designed for Windows, it provides a clean, minimal, Git‑friendly structure whi
 
 ---
 
+# 🛠️ **Installation & System Integration**  
+### **[Protocol: MERGE — Cyborg‑Lang Revision v2]**
+
+To awaken **Dark‑Com**, the Logical Core (source) must be fused with the Kinetic Engine (binary assets).  
+Skipping the merge phase will cause the executable to launch without vision‑modules, resulting in a **null‑engine state**.
+
+---
+
+## ⚙️ **[Terminal Mode: Bash Integration]**
+
+### **PHASE 1 — ACQUIRE LOGICAL CORE**  
+**Initialize the source tree and C‑Shell wrapper**
+
+```bash
+git clone https://github.com/<your-source-repo>/Dark-Com
+cd Dark-Com
+```
+
+---
+
+### **PHASE 2 — ACQUIRE KINETIC ENGINE (WebKit + JavaFX)**  
+**Pull the heavy binary distribution node**
+
+```bash
+git clone https://github.com/<your-dist-repo> temp_dist
+```
+
+---
+
+### **PHASE 3 — COMPONENT MERGE**  
+**Inject native DLLs + JAR modules into the Dark‑Com root**
+
+```bash
+cp -v temp_dist/* .
+```
+
+---
+
+### **PHASE 4 — CLEANUP & VALIDATION**  
+**Purge temporary assets and confirm engine presence**
+
+```bash
+rm -rf temp_dist
+test -f jfxwebkit.dll && echo "Status: READY" || echo "Status: ERROR - Engine Missing"
+```
+
+---
+
+## 🧩 **[Human Interface: Visual Layout]**
+
+Your directory **must** resolve to the following structure for Dark‑Com.exe to achieve operational consciousness:
+
+```
+/Dark-Com/
+  ├── Dark-Com.exe       ← Logical Trigger (C-Shell Wrapper)
+  ├── jfxwebkit.dll      ← Kinetic Vision Module (WebKit)
+  ├── javafx.web.jar     ← Protocol Bridge Layer
+  └── [Other Modules]    ← Auxiliary Data Streams
+```
+
+---
+
+# 🚀 **Execution Protocol**
+
+### **FIREWIRE ACTIVATION**
+
+```bash
+./Dark-Com.exe
+```
+
+*SDK‑level debug chatter may appear. The wrapper bypasses standard JRE gatekeeping by design.*
+
+---
+
+# 🧭 **Plain‑Language Equivalent (Non‑Cyborg Mode)**
+
+### 1. Clone the Dark‑Com source
+```bash
+git clone https://github.com/<your-source-repo>/Dark-Com
+cd Dark-Com
+```
+
+### 2. Clone the WebKit/JavaFX distribution repo
+```bash
+git clone https://github.com/<your-dist-repo> temp_dist
+```
+
+### 3. Merge the engine files into the Dark‑Com root
+```bash
+cp -r temp_dist/* .
+rm -rf temp_dist
+ls | grep jfxwebkit.dll
+```
+
+### 4. Launch the application
+```bash
+./Dark-Com.exe
+```
+---
 ## 🚀 **Features**
 
 ### **Modern Web Rendering**
