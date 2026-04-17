@@ -41,8 +41,8 @@ Skipping the merge phase will cause the executable to launch without vision‑mo
 **Initialize the source tree and C‑Shell wrapper**
 
 ```bash
-git clone https://github.com/<your-source-repo>/Dark-Com
-cd Dark-Com
+git clone https://github.com/mercwar/Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
+cd /Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
 ```
 
 ---
@@ -51,7 +51,7 @@ cd Dark-Com
 **Pull the heavy binary distribution node**
 
 ```bash
-git clone https://github.com/<your-dist-repo> temp_dist
+git clone https://github.com/openjdk/jfx temp_dist
 ```
 
 ---
@@ -105,13 +105,13 @@ Your directory **must** resolve to the following structure for Dark‑Com.exe to
 
 ### 1. Clone the Dark‑Com source
 ```bash
-git clone https://github.com/<your-source-repo>/Dark-Com
-cd Dark-Com
+git clone https://github.com/mercwar/Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
+cd /Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
 ```
 
 ### 2. Clone the WebKit/JavaFX distribution repo
 ```bash
-git clone https://github.com/<your-dist-repo> temp_dist
+git clone https://github.com/openjdk/jfx temp_dist
 ```
 
 ### 3. Merge the engine files into the Dark‑Com root
