@@ -41,8 +41,12 @@ Skipping the merge phase will cause the executable to launch without vision‑mo
 **Initialize the source tree and C‑Shell wrapper**
 
 ```bash
-git clone https://github.com/mercwar/Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
-cd /Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
+rm -rf Dark-Com
+rm -rf Dark-Com-Git-Dist
+git clone https://github.com/mercwar/Dark-Com
+mkdir Dark-Com-Git-Dist
+mv Dark-Com\Dark-Com-Git-Dist\* Dark-Com-Git-Dist\
+rm -rf Dark-Com
 ```
 
 ---
@@ -50,27 +54,21 @@ cd /Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
 ### **PHASE 2 — ACQUIRE KINETIC ENGINE (WebKit + JavaFX)**  
 **Pull the heavy binary distribution node**
 
-```bash
-git clone https://github.com/openjdk/jfx temp_dist
-```
+```bash#!/bin/sh
 
----
+curl -L -o javafx.zip https://download2.gluonhq.com/openjfx/21.0.2/openjfx-21.0.2_windows-x64_bin-sdk.zip
 
-### **PHASE 3 — COMPONENT MERGE**  
-**Inject native DLLs + JAR modules into the Dark‑Com root**
+unzip javafx.zip
 
-```bash
-cp -v temp_dist/* .
-```
+cp -r javafx-sdk-*/lib/* Dark-Com-Git-Dist/
 
----
+rm -rf javafx.zip
+rm -rf javafx-sdk-*
 
-### **PHASE 4 — CLEANUP & VALIDATION**  
-**Purge temporary assets and confirm engine presence**
+ls Dark-Com-Git-Dist | grep jfxwebkit.dll
 
-```bash
-rm -rf temp_dist
-test -f jfxwebkit.dll && echo "Status: READY" || echo "Status: ERROR - Engine Missing"
+./Dark-Com-Git-Dist/Dark-Com.exe
+
 ```
 
 ---
@@ -105,25 +103,30 @@ Your directory **must** resolve to the following structure for Dark‑Com.exe to
 
 ### 1. Clone the Dark‑Com source
 ```bash
-git clone https://github.com/mercwar/Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
-cd /Dark-Com/Dark-Com-v1.0/Dark-Com-Git-Dist
+rm -rf Dark-Com
+rm -rf Dark-Com-Git-Dist
+git clone https://github.com/mercwar/Dark-Com
+mkdir Dark-Com-Git-Dist
+mv Dark-Com\Dark-Com-Git-Dist\* Dark-Com-Git-Dist\
+rm -rf Dark-Com
 ```
 
-### 2. Clone the WebKit/JavaFX distribution repo
-```bash
-git clone https://github.com/openjdk/jfx temp_dist
-```
 
-### 3. Merge the engine files into the Dark‑Com root
-```bash
-cp -r temp_dist/* .
-rm -rf temp_dist
-ls | grep jfxwebkit.dll
-```
+```bash#!/bin/sh
 
-### 4. Launch the application
-```bash
-./Dark-Com.exe
+curl -L -o javafx.zip https://download2.gluonhq.com/openjfx/21.0.2/openjfx-21.0.2_windows-x64_bin-sdk.zip
+
+unzip javafx.zip
+
+cp -r javafx-sdk-*/lib/* Dark-Com-Git-Dist/
+
+rm -rf javafx.zip
+rm -rf javafx-sdk-*
+
+ls Dark-Com-Git-Dist | grep jfxwebkit.dll
+
+./Dark-Com-Git-Dist/Dark-Com.exe
+
 ```
 ---
 ## 🚀 **Features**
